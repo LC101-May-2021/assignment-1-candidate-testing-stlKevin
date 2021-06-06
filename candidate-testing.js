@@ -59,7 +59,8 @@ function gradeQuiz(candidateAnswers) {
 	} else {
 		console.log('>>> Status: FAILED <<<');
 	}
-	return String(grade);
+	grade = String(grade);
+	return grade;
 }
 
 
